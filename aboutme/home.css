@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;      /* changes font color in your HTML file*/
+    color: black
+}
+
+p {
+    margin: 30px;
+    background: chocolate;
+    border: 1px solid black;
+    outline: 3px solid black;
+    outline-offset: 15px;
+    font-size: 300;    /* changes font size in your HTML file*/
+}
+
+p.smallParagraph {
+    font-size: 15px;    /* another way to change attributes of your HTML file*/
+    color: purple;
+    text-align: center;
+}
