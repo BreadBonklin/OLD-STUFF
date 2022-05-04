@@ -3,7 +3,7 @@ body{
     color: black
 }
 
-#one {                                             /* The hashtage indicates an ID code to be called in your HTML file. Tells the HTML which attributes to use for the given code that it calls*/
+#header1 {
     margin: 30px;
     background: chocolate;
     border: 1px solid black;
@@ -11,15 +11,6 @@ body{
     outline-offset: 15px;
     font-size: 150px;    /* changes font size in your HTML file*/
     text-align: center;
-}
+ }
 
-#two {
-    font-size: 15px;    /* another way to change attributes of your HTML file*/
-    color: purple;
-    text-align: center;
-    font-size: 50px;
-}
-
-/*#three {
-    image-orientation: flip;
-}*/
+ 
