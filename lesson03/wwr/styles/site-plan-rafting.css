@@ -3,6 +3,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.google.com/specimen/Orelega+One');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,7 +13,7 @@ Fonts are separated by a | */
   --accent2-color: #F5DD90;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Orelega One";
+  --heading-font: "Rock Salt";
   --paragraph-font: 'Orelega One';
 
   /* these colors below should be chosen from among your palette colors above */
