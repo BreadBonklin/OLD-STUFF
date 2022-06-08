@@ -98,10 +98,14 @@ nav a:hover {
 .msg p {
     padding-bottom: 15px;
 }
-footer, footer h3, footer a {
-    text-align: left;
+footer {
     background-color: #F5DD90;
-    color:black
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:black;
     
 }
 footer .social img {
