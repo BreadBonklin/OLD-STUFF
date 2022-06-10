@@ -1,0 +1,16 @@
+body{
+    background-color: blue;      /* changes font color in your HTML file*/
+    color: black
+}
+
+#header1 {
+    margin: 30px;
+    background: chocolate;
+    border: 1px solid black;
+    outline: 3px solid black;
+    outline-offset: 15px;
+    font-size: 150px;    /* changes font size in your HTML file*/
+    text-align: center;
+ }
+
+ 
