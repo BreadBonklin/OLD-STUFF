@@ -60,8 +60,11 @@ header {
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+#background {
+  height: 725px;
+  background-color: #396E94;
+  grid-column: 1/11;
+  grid-row: 4/9;
 }
 
 p {
