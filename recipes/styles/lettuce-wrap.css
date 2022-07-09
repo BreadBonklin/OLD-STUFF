@@ -23,10 +23,12 @@
     --nav-background-color: #2c2c2c;
     --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #076ae1;
+    background-color: #076ae1;
 }
 #content {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #076ae1;
 }
 header {
     padding: 1em;
@@ -48,22 +50,31 @@ header nav {
     grid-column: 2/5;
     margin-left: -100px;
 }
-.home-message{
-    font-size: 30px;
-    grid-column: 2/4;
-    margin-top: -30px;
-    margin-left: 35px;
-}
 #logo_link{
     grid-column: 1/1;
     grid-row: 1/3;
     box-shadow: 5px 5px 30px white;
 }
-.card-img{
-    box-shadow: 5px 5px 30px #2c2c2c;
+.main {
+    margin-top: 50px;
+    align-items: center;
 }
-.main{
-    margin-top: 50px
+
+.h1, .h2 {
+    font-size: 20px;
+}
+.msg {
+    background-color: #2c2c2c;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    grid-column: 3/3;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 footer {
     background-color: #2c2c2c;
